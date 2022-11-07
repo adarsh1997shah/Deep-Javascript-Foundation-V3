@@ -3,7 +3,7 @@
  * Examples
  */
 
-// We can use Number func to convert values to number
+// We can use Number func to convert values to number or mimic toNumber
 // Operation to primitives
 console.log(Number('')); // 0
 console.log(Number('0')); // 0
