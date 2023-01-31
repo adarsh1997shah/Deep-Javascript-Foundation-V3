@@ -31,7 +31,7 @@ function ask(question) {
 ask('What is closure');
 
 /**
- * So whats happening in above function? According to the definition once the func is executed, all the variable is garbage collected !, So how does the function inside the settimeout able to log the `question` parameter passed.
+ * So whats happening in above function? According to the definition once the func is executed, all the variable is garbage collected !, So how does the function inside the settimeout able to log the `question` parameter passed to the ask function.
 
  * So here is the explanation
  * Once the ask func is called it first implicitly creates the a variable with a name same as that of the parameter passed and then executes the settimeout, and the function is then garbage collected but here is the catch, the variable `question` is lexically scoped to / closed over the `question` variable and so even if the ask function is destroyed, the settimeout remembers `question` variable that runs after 1 sec.
