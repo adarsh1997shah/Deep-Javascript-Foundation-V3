@@ -32,5 +32,5 @@ function getName() {
 function logName() {
 	var random_name = 'inner';
 
-	getName(); // so now if this function runs it would print inner, as the it doent matter where the function is declared but from where the function is being called.
+	getName(); // so now if this function runs it would print inner, as the it doesn't matter where the function is declared but from where the function is being called.
 }

@@ -3,12 +3,12 @@ function getRandomNumber() {
 }
 
 // prettier-ignore
-(getRandomNumber)() // wrapping a paren around the function name means its acting as source reference i.e value getter and then the enclosing paren would execute that expression. So why not put the entire expression into it and execute it immediately.
+(getRandomNumber)() // wrapping a paren around the function name means its acting as source reference i.e value getter and then the enclosing paren (`()`) would execute that expression. So why not put the entire expression into it and execute it immediately.
 
 /**
  * IIFE is also known as Immediately Invoked Function Expression
  * It is known as function expression because the first line is not starting with the function its starting with an opening paren.
- * IIFEs doesnt pollute the current scope i.e no parsing happens for IIFEs.
+ * IIFEs doesn't pollute the current scope i.e no parsing happens for IIFEs.
  */
 
 (function getRandomNumber() {
