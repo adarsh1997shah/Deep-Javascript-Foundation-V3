@@ -1,6 +1,6 @@
 /**
  * If either of the operand of `==` is a string/number/boolean and other one is number, then `==` prefers number comparison
- * If either of operand is a non-primitive like {}/[], then are converted to primitve i.e `==` only checks primitve values
+ * If either of operand is a non-primitive like {}/[], then are converted to primitive i.e `==` only checks primitive values
  */
 
 const num1 = 4;

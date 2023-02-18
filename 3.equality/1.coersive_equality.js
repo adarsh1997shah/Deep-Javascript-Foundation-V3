@@ -1,5 +1,5 @@
 /**
- * For null and undefined, `==` coerses them both to true
+ * For null and undefined, `==` coerces them both to true
  */
 
 const user1 = { name: 'arun' };
@@ -12,7 +12,7 @@ if (
 	// do something
 }
 
-// We can user the poser of coersion
+// We can user the power of coercion
 if (user1.name === null && user2.name == null) {
 	// Do something
 }

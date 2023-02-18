@@ -1,4 +1,4 @@
-// How can value be coersive equal to not of itself
+// How can value be coercive equal to not of itself
 // can be re-written as [] != []
 if ([] == ![]) {
 	// Hmm... true
