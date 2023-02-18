@@ -19,10 +19,13 @@ console.log(Number(true)); // 1
 console.log(Number(null)); // 0
 console.log(Number(undefined)); // NaN
 
-// Operation to non-primitives
-// First it invokes with the `number` hint so the order is valueOf ---> toString
-// For [] and {} it return this
-// valueOf() { return this; }
+/**
+ * Operation to non-primitives
+ * First it invokes with the `number` hint so the order is valueOf ---> toString
+ * For [] and {} it return this
+ * valueOf() { return this; }
+ */
+
 console.log(Number([''])); // so here first the valueOf will return the array reference and then toString performs and converts to "" and then when we convert that to number it gives 0
 
 console.log(Number(['0'])); // toString -> '0', toNumber -> 0

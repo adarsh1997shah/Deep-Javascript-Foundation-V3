@@ -16,9 +16,11 @@ const obj2 = { x: 2 };
 console.log(obj1.toString()); // "[object Object]"
 console.log(obj2.toString()); // "[object Object]"
 
-// Note
-// We can override a toString function to completely control what are object stringification look like.
-// If we want to override toString we can do so by creating a property on that particular object
+/**
+ * Note
+ * We can override a toString function to completely control what are object stringification look like.
+ * If we want to override toString we can do so by creating a property on that particular object
+ */
 
 // obj1.toString = function () {
 // 	return 'Custom toString return';
