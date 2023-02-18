@@ -30,7 +30,7 @@ const workshop2 = {
 };
 
 workshop1.ask('What is implicit binding1?'); // Kyle What is implicit binding1?
-workshop2.ask('What is implicit binding2?'); // Suzzy What is implicit binding2?
+workshop2.ask('What is implicit binding2?'); // Suzy What is implicit binding2?
 
 /**
  * Here ask function is a common function shared among two different object, and the way of calling of the ask function is determines the context  of `this`.
